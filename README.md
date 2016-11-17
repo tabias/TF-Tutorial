@@ -2,7 +2,7 @@
 ============
 This is basic source-code of ML with TensorFlow.
 You can see the Prof.Kim's lecture below!
-[](https://www.youtube.com/user/hunkims/)
+(https://www.youtube.com/user/hunkims/)
 
 ## Contents
 + [Linear Regression](https://github.com/gicheonkang/MachineLearning/tree/master/2.%20Linear%20Regression)
