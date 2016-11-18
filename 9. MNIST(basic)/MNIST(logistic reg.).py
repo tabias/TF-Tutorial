@@ -10,13 +10,12 @@ b = tf.Variable(tf.zeros([10]))
 hypothesis = tf.nn.softmax(tf.matmul(X, W)+b)
 cost = tf.reduce_mean(tf.reduce_sum(-Y*tf.log(hypothesis), reduction_indices=1))
 
-optimizer = tf.train.AdamOptimizer(0.01).minimize(cost)
+optimizer = tf.train.GradientDescentOptimizer(0.001).minimize(cost)
 init = tf.initialize_all_variables()
 
-training_epoch = 5
+training_epoch = 25
 display_step = 1
 batch_size = 100
-checkpoint_dir = "cps/"
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 with tf.Session() as session:
@@ -42,7 +41,7 @@ with tf.Session() as session:
     print ("Optimization Finished!")
 
     # Test model
-    correct_prediction = tf.equal(tf.floor(hypothesis+0.5), Y)
+    correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
     # Calculate accuracy
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
     print ("Accuracy:", accuracy.eval({X: mnist.test.images, Y: mnist.test.labels}))
