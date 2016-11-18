@@ -12,3 +12,4 @@ You can see the Prof.Kim's lecture below!
 * [NN Tutorial](https://github.com/gicheonkang/MachineLearning/tree/master/6.%20NN%20Tutorial)
 - [TensorBoard](https://github.com/gicheonkang/MachineLearning/tree/master/7.%20TensorBoard)
 + [ReLU](https://github.com/gicheonkang/MachineLearning/tree/master/8.%20ReLU)
+* [MNIST](https://github.com/gicheonkang/MachineLearning/tree/master/9.%20MNIST(basic))
