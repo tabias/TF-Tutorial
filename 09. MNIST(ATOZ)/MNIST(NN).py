@@ -1,5 +1,5 @@
 import tensorflow as tf
-import input_data
+from tensorflow.examples.tutorials.mnist import input_data
 
 def xavier_init(n_inputs, n_outputs, uniform = True):
     if uniform:
@@ -17,7 +17,7 @@ dropout_rate = tf.placeholder(tf.float32)
 training_epoch = 15
 display_step = 1
 batch_size = 100
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
 
 W1 = tf.get_variable("W1", shape=[784, 500], initializer=xavier_init(784,500))
 W2 = tf.get_variable("W2", shape=[500, 256], initializer=xavier_init(500,256))

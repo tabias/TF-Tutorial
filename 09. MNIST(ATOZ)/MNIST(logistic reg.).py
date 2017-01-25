@@ -1,5 +1,5 @@
 import tensorflow as tf
-import input_data
+from tensorflow.examples.tutorials.mnist import input_data
 
 X = tf.placeholder(tf.float32, [None, 784])
 Y = tf.placeholder(tf.float32, [None, 10])
@@ -16,7 +16,7 @@ init = tf.initialize_all_variables()
 training_epoch = 25
 display_step = 1
 batch_size = 100
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
 
 with tf.Session() as session:
     session.run(init)
