@@ -1,11 +1,11 @@
  Machine Learning with TensorFlow 
 ============
-This is basic source-code of ML with TensorFlow.
-You can get familiar with some concepts of ml and tensorflow through contents below !
+This is basic source-code of ML with TensorFlow. <br />
+You can get familiar with some concepts of ml and tensorflow through contents below ! <br />
 
-References
-https://www.youtube.com/user/hunkims/
-http://web.stanford.edu/class/cs20si/syllabus.html
+References <br />
+https://www.youtube.com/user/hunkims/.   <br />
+http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
 
 
 ## Contents
