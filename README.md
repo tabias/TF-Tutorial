@@ -1,8 +1,12 @@
- Machine Learning with TensorFlow
+ Machine Learning with TensorFlow 
 ============
-This is basic source-code of ML with TensorFlow.
-You can see the Prof.Kim's lecture below!
-(https://www.youtube.com/user/hunkims/)
+This is basic source-code of ML with TensorFlow. <br />
+You can get familiar with some concepts of ml and tensorflow through contents below ! <br />
+
+References <br />
+https://www.youtube.com/user/hunkims/.   <br />
+http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
+
 
 ## Contents
 + [Linear Regression](https://github.com/gicheonkang/TF-Tutorial/tree/master/02.%20Linear%20Regression)
