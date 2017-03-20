@@ -30,9 +30,9 @@ with tf.Session() as session:
             # Fit training using batch data
             session.run(optimizer, feed_dict={X: batch_xs, Y: batch_ys})
             # Compute average loss
+            avg_cost += session.run(cost, feed_dict={X: batch_xs, Y: batch_ys}) / total_batch
 
         # show logs per epoch step
-        avg_cost += session.run(cost, feed_dict={X: batch_xs, Y: batch_ys}) / total_batch
         if epoch % display_step == 0:  # Softmax
             print ("Epoch:", '%04d' % (epoch + 1), "cost=", "{:.9f}".format(avg_cost))
             print (session.run(b))
