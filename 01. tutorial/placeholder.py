@@ -1,4 +1,3 @@
-# import tensorflow
 import tensorflow as tf
 
 # tf.placeholder is also very useful concept in TF
@@ -12,7 +11,7 @@ session = tf.Session()
 
 # tf.add(a,b) --> return a+b, tf.mul(a,b) --> return a*b
 add = tf.add(ph1, ph2)
-mul = tf.mul(ph1, ph2)
+mul = tf.multiply(ph1, ph2)
 
 # run the session with different values(by using tf.placeholder)
 print(session.run(add, feed_dict={ph1:3, ph2:5}))
