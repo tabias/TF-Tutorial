@@ -23,7 +23,8 @@ a = tf.Variable(0.1)
 optimizer = tf.train.GradientDescentOptimizer(a)
 trainer = optimizer.minimize(cost)
 
-init = tf.initialize_all_variables()
+# TF-VERSION 1.0 CHANGED METHOD
+init = tf.global_variables_initializer()
 
 sess = tf.Session()
 sess.run(init)

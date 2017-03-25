@@ -14,7 +14,9 @@ hypothesis = tf.mul(X, W)
 
 # define cost function, initiate session
 cost = tf.reduce_sum(tf.pow(hypothesis-Y, 2)) / (m)
-init = tf.initialize_all_variables()
+
+# TF-VERSION 1.0 CHANGED METHOD
+init = tf.global_variables_initializer()
 session = tf.Session()
 session.run(init)
 
