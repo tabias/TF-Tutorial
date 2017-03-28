@@ -2,6 +2,7 @@
 ============
 This is basic source-code of ML with TensorFlow. <br />
 You can get familiar with some concepts of ml and tensorflow through contents below ! <br />
+Stanford(cs20si) contents are keep updating with jupyter notebook for better understanding <br />  
 
 References <br />
 https://www.youtube.com/user/hunkims/.   <br />
