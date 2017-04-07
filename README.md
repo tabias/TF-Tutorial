@@ -19,3 +19,4 @@ http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
 + [ReLU](https://github.com/gicheonkang/TF-Tutorial/tree/master/08.%20Concept%20of%20ReLU)
 * [MNIST](https://github.com/gicheonkang/TF-Tutorial/tree/master/09.%20MNIST(ATOZ))
 - [CNN Tutorial(MNIST)](https://github.com/gicheonkang/TF-Tutorial/tree/master/10.%20CNN(MNIST))
++ [Loss Functions](https://github.com/gicheonkang/TF-Tutorial/tree/master/11.%20Loss%20Function)
