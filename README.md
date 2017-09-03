@@ -20,3 +20,4 @@ http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
 * [MNIST](https://github.com/gicheonkang/TF-Tutorial/tree/master/09.%20MNIST(ATOZ))
 - [CNN Tutorial(MNIST)](https://github.com/gicheonkang/TF-Tutorial/tree/master/10.%20CNN(MNIST))
 + [Loss Functions](https://github.com/gicheonkang/TF-Tutorial/tree/master/11.%20Loss%20Function)
+* [Numpy Tutorial](https://github.com/gicheonkang/TF-Tutorial/tree/master/12.%20Numpy)
