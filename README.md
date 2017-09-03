@@ -7,6 +7,7 @@ Stanford(cs20si) contents are being updated with jupyter notebook for better und
 References <br />
 https://www.youtube.com/user/hunkims/.   <br />
 http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
+https://www.dataquest.io/blog/numpy-tutorial-python/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more <br />
 
 
 ## Contents
