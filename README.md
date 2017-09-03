@@ -7,6 +7,7 @@ Stanford(cs20si) contents are being updated with jupyter notebook for better und
 References <br />
 https://www.youtube.com/user/hunkims/.   <br />
 http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
+https://www.dataquest.io/blog/numpy-tutorial-python/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more <br />
 
 
 ## Contents
@@ -20,3 +21,4 @@ http://web.stanford.edu/class/cs20si/syllabus.html.  <br />
 * [MNIST](https://github.com/gicheonkang/TF-Tutorial/tree/master/09.%20MNIST(ATOZ))
 - [CNN Tutorial(MNIST)](https://github.com/gicheonkang/TF-Tutorial/tree/master/10.%20CNN(MNIST))
 + [Loss Functions](https://github.com/gicheonkang/TF-Tutorial/tree/master/11.%20Loss%20Function)
+* [Numpy Tutorial](https://github.com/gicheonkang/TF-Tutorial/tree/master/12.%20Numpy)
